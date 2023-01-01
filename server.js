@@ -6,6 +6,7 @@ const port = 8000;
 
 const requestListener = function (req, res) {
   let path = "";
+
   if ("/" == req.url) {
     path = "/index.html";
   } else {
